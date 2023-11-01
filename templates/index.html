@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Home{% endblock title %}
+{% block body %}
+<body>
+    <div class="containerIndex mb-3 my-4 border-bottom">
+        <div class="div-1 start-camera mb-3">
+            <form action="cam">
+                <div class="word" style="height:90px"></div>
+                {% comment %} <h1 class="h1-1">Empowering Deaf</h1> {% endcomment %}
+                <h1 class="h1-2">Through AI</h1>
+                <p>Empowering the dumb community through cutting-edge AI-driven communication<br>solutions on our website, ensuring inclusivity and accessibility for all.</p>
+                {% comment %} <input type="submit" > {% endcomment %}
+                <input type="submit" value="Click here to Start" class="btn btn-primary">
+            </form>
+        </div>
+        <div class="div-2">
+            <img class="deafImage" src="{% static 'images/bg.jpg' %}" alt="">
+            {% comment %} <img class="deafImage" src="https://source.unsplash.com/600x600/?ai"  class="d-block w-100" alt="..."> {% endcomment %}
+        </div>
+    </div>
+    <div class="line my-3 line2 border border-primary"></div>
+    <div class="container my-3">
+        <h1 class="my-2 text-center mb-2">Features</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://source.unsplash.com/600x600/?ai"  class="d-block w-100" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b>Develop an intuitive set of gestures that are easy to learn and remember, representing common words, phrases, or commands.</b></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://source.unsplash.com/600x600/?technology"  class="d-block w-100" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b>Enables users to personalize gestures, tailoring the system to their specific communication style and preferences.</b></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://source.unsplash.com/600x600/?Neural"  class="d-block w-100" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b>Overcomes language barriers by relying on universal gestures, making communication more accessible in multicultural environments.</b></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://source.unsplash.com/600x600/?intelligence"  class="d-block w-100" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b>Incorporate gestures that allow users to express emotions non-verbally, enhancing the emotional richness of communication.</b></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://source.unsplash.com/600x600/?education"  class="d-block w-100" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b>Can be integrated into educational settings to support learning and communication for dumb students.</b></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://source.unsplash.com/600x600/?networks"  class="d-block w-100" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b>Can be used in various settings, including home, school, work, and public spaces.</b></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://source.unsplash.com/600x600/?computing"  class="d-block w-100" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b>Offers an alternative to written communication, which may be challenging for some non-verbal individuals.</b></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+{% endblock body %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% comment %} <form action="user">
+    Enter your name 
+    <input type="text" name="Username" id="">
+    <br>
+    <input type="submit">
+</form>
+<form action="cam">
+    <h1>Enter your camera </h1>
+    <input type="submit">
+</form> {% endcomment %}

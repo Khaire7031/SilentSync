@@ -1,0 +1,121 @@
+/* index.css */
+
+/* background-image: url("https://source.unsplash.com/1600x900/?water"); */
+
+.word {
+    margin: auto;
+    color: aqua;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 1px 1px #222324, 1px 1px #222324, 1px 1px #222324;
+    /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
+  }
+
+.containerIndex {
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+  
+
+.div-1{
+    height: 100%;
+    width: 40%;
+}
+.div-2{
+    height: 100%;
+    width: 50%;
+}
+
+.deafImage{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.start-camera{
+    padding: 50px;
+}
+
+.h1-1{
+    color: aqua;
+    font-size: 50px;
+}
+
+
+  
+
+
+
+/* Camera Css */
+
+.processing{
+    display: flex;
+    flex-direction: column;
+    /* border-style: solid; */
+    padding: 5px;
+    height: 550px;
+    /* background: aqua; */
+    justify-content: center;
+    gap: 10px;
+}
+.camLineTranslate{
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    /* border-style: solid; */
+    gap: 30px;
+    padding: 1px;
+    background: white;
+}
+.line{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(247, 239, 7);
+    margin: 1px;
+}
+.line2{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.video{
+   height: 100%;
+   width: 55%;
+}
+.camera_photo{
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.translator{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border-style: solid; */
+    height: 100%;
+    width: 40%;
+    gap: 15px;
+}
+.english-translator{
+    height: 35%;
+    width: 100%;
+    border-style:solid;
+    border-color:red;  
+    padding: 10px; 
+}
+.marathi-translator{
+    height: 35%;
+    width: 100%;
+    border-style:solid;
+    border-color:red;
+    padding: 10px;
+}
+
+
