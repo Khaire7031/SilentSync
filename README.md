@@ -16,7 +16,10 @@ The goal of this website is to encourage human-machine dialogue. In order to det
 
 
 ![Home](https://github.com/Khaire7031/SilentSync/assets/121940469/192c9680-2286-49a2-98fb-8fb23844ccbd)
-"Description of the Home Image"
+
+[Artificial Intelligence (AI) is a constantly developing field. Its application in a variety of fields had increased productivity. Additional research will reveal how artificial intelligence's capacity to recognize hand gestures has developed over time.
+The goal of this website is to encourage human-machine dialogue. In order to determine the sentence and decide how to respond to the question, the system here saves the knowledge database. RDBMS is where the website knowledge is kept.]
+
 
 
 
