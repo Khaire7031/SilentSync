@@ -16,7 +16,8 @@ The goal of this website is to encourage human-machine dialogue. In order to det
 
 
 ![Home](https://github.com/Khaire7031/SilentSync/assets/121940469/192c9680-2286-49a2-98fb-8fb23844ccbd)
-![Home](https://raw.githubusercontent.com/Khaire7031/SilentSync/main/assets/121940469/192c9680-2286-49a2-98fb-8fb23844ccbd.png "Description of the Home Image")
+"Description of the Home Image"
+
 
 
 
