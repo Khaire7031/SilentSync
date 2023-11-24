@@ -14,7 +14,7 @@ Artificial Intelligence (AI) is a constantly developing field. Its application i
 The goal of this website is to encourage human-machine dialogue. In order to determine the sentence and decide how to respond to the question, the system here saves the knowledge database.
 
 
-
+### Home page
 ![Home](https://github.com/Khaire7031/SilentSync/assets/121940469/192c9680-2286-49a2-98fb-8fb23844ccbd)
 
 
