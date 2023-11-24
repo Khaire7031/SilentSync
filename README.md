@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # SilentSync
 
 Welcome to SilentSync! This is a fantastic project that does amazing things.
@@ -15,6 +15,8 @@ The goal of this website is to encourage human-machine dialogue. In order to det
 
 
 
+![Home](https://github.com/Khaire7031/SilentSync/assets/121940469/192c9680-2286-49a2-98fb-8fb23844ccbd)
+![Home](https://raw.githubusercontent.com/Khaire7031/SilentSync/main/assets/121940469/192c9680-2286-49a2-98fb-8fb23844ccbd.png "Description of the Home Image")
 
 
 
@@ -24,8 +26,7 @@ The goal of this website is to encourage human-machine dialogue. In order to det
 ![dont like](https://github.com/Khaire7031/SilentSync/assets/121940469/a87bed16-a674-4d53-97f2-96dc8736978f)
 ![call](https://github.com/Khaire7031/SilentSync/assets/121940469/1c2f1706-f873-4bb7-bd36-3f16584c1613)
 ![stop](https://github.com/Khaire7031/SilentSync/assets/121940469/b3d56a36-f572-4609-bbc7-f4e0fc1dacbd)
-![Home](https://github.com/Khaire7031/SilentSync/assets/121940469/192c9680-2286-49a2-98fb-8fb23844ccbd)
-=======
+
 
 
 ## Features
