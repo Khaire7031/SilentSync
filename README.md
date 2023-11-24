@@ -49,8 +49,8 @@ The goal of this website is to encourage human-machine dialogue. In order to det
 
 ## Features
 
-- Easy data synchronization
-- Intuitive user interface
+- high-quality Text-to-Speech (TTS)
+- user-friendly interface
 - Customizable settings
 
 ## Getting Started
