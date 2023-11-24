@@ -2,7 +2,7 @@
 {% load static %}
 {% block title %}CameraOpen{% endblock title %}
 {% block body %}
-
+{% comment %} <div id="dynamicContent">Loading...</div> {% endcomment %}
 <body>
     <div class="container">
         <div class="processing my-4">
@@ -11,7 +11,8 @@
                 <div class="video">
                     {% comment %} <h1>Video</h1> {% endcomment %}
                     {% comment %} <img class="camera_photo" src="{%static 'images/girl.jpg'%}" alt="Logo"> {% endcomment %}
-                    <img class="camera_photo" src="{% url 'video' %}" alt="Video" width="50%" />
+                    <img class="camera_photo" src="{% url 'video' %}" alt="Video" width="50%" /> 
+                    
                 </div>
                 <div class="line"></div>
                 <div class="translator">
@@ -20,16 +21,16 @@
                         <small class="text-body-secondary">Translator</small>
                     </h3>
                     <div class="english-translator" id="eng">English Sentence here ...</div>
+                    {% comment %} <div id="dynamicContent">Loading...</div>  {% endcomment %}
                     <h3>
-                        Marathi
-                        <small class="text-body-secondary">Translator</small>
+                        मराठी 
+                        <small class="text-body-secondary">अनुवादक</small>
                     </h3>
-                    <div class="marathi-translator" id="mar">Marathi Sentence here...</div>
+                    <div class="marathi-translator" id="mar">मराठी वाक्य इथे...</div>
                 </div>
-                
+
 
             </div>
-            {% comment %} Add Button Here {% endcomment %}
             <form class="form" action="http://127.0.0.1:8000/">
                 <button type="submit" class="center_button btn btn-primary btn-lg">Stop</button>
             </form>
@@ -39,6 +40,7 @@
 </body>
 
 {% endblock body %}
+
 
 
 
@@ -190,7 +192,7 @@
 
 
 
-{% comment %} 
+{% comment %}
 <div class="translator">
     <h3>
         English

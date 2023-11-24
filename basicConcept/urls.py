@@ -10,5 +10,6 @@ urlpatterns = [
     path('contact',views.contact,name='contact'),
     path('about',views.about,name='about'),
     path('user',views.user,name='user'),
+    path('get_dynamic_content/', views.get_dynamic_content, name='get_dynamic_content'),
 ]
 

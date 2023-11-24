@@ -1,6 +1,3 @@
-# SilentSunc - AI
- Creating a system that converts hand gestures to spoken Marathi could greatly benefit individuals who may face challenges in traditional forms of communication.
+# Hand Gesture detection
 
-
-
- 
+ Indian hand sign language into Marathi audio by identifying words and sentences

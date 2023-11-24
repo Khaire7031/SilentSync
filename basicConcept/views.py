@@ -212,6 +212,11 @@ import os
 from django.conf import settings
 from keras.models import load_model
 from .models import Text  # Import your Text model
+# views.py
+from django.http import JsonResponse
+import json
+dynamic_data = "This is dynamic content"
+
 
 
 # initialize mediapipe
@@ -219,8 +224,20 @@ mpHands = mp.solutions.hands
 hands = mpHands.Hands(max_num_hands=1, min_detection_confidence=0.7)
 mpDraw = mp.solutions.drawing_utils
 output = []
-output.append("Pranav")
+marOutput = []
+output.append("English Sentence here ...")
+marOutput.append("मराठी वाक्य इथे...")
 map = {}
+
+
+def get_dynamic_content(request):
+    # dynamic_data = output[-1]
+    # print('Dynamic data:->', dynamic_data)
+    dynamic_data = {
+        'eng': output[-1],
+        'mar': marOutput[-1]
+    }
+    return JsonResponse({'dynamic_data': dynamic_data})
 
 # Initialize voice converter
 def voiceConverter(text):
@@ -247,12 +264,6 @@ def about(request):
     return render(request,'about.html')
 
 def services(request):
-    # eng_sentence = "I can not speak english sentence."
-    # mar_sentence = "यह मराठी मराठी मराठी मराठी वाक्य आहे."
-
-    # result = insertData(eng_sentence, mar_sentence)
-    # print("result",result)
-    # db()
     return render(request,'services.html')
 
 def index(request):
@@ -346,33 +357,36 @@ def recognize_gesture(frame):
 
             if not output:
                 output.append(className)
-                if map[className] > 5 and output[-1]!=className:
+                if map[className] > 10 and output[-1]!=className:
                     print("---------===========------------")
                     map[className] = 0 
                     map.clear()
                     output.append(className)
                     text = translator.translate(className)
+                    marOutput.append(text)
                     # voiceConverter(text)
                     result = insertData(className, text)
-                    print("result",result)
+                    # print("result",result)
                     db()
                     voice_thread = threading.Thread(target=voiceConverter, args=(text,))
                     voice_thread.start()
 
-            elif map[className] > 5 and output[-1]!=className:
+            elif map[className] > 10 and output[-1]!=className:
                 print("=============")
                 map[className] = 0 
                 map.clear()
                 output.append(className)
                 text = translator.translate(className)
+                marOutput.append(text)
                 # voiceConverter(text)
                 result = insertData(className, text)
-                print("result",result)
+                # print("result",result)
                 db()
                 voice_thread = threading.Thread(target=voiceConverter, args=(text,))
                 voice_thread.start()   
                              
-            print(className)
+            print(className,"????")
+            dynamic_data = className
     # show the prediction on the frame
     cv2.putText(frame, className, (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 
                    1, (0,0,255), 2, cv2.LINE_AA)

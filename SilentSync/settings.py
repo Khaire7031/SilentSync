@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-%kyx@mu(q1lez%x#fopo^_8l-v4b-#_uhqqu%dow#!8(nko+-n"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','localhost']
+ALLOWED_HOSTS = []
 
 
 
@@ -141,6 +141,3 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 #     path('update-texts/', send_update, name='send_update'),
 # ]
 
-
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
