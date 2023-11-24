@@ -30,7 +30,7 @@ The goal of this website is to encourage human-machine dialogue. In order to det
 ### Action 1 :  All the best to you
 ![all](https://github.com/Khaire7031/SilentSync/assets/121940469/8d14b731-837e-4a7b-9e08-976fe16f9c6a)
 
-<img src="https://github.com/Khaire7031/SilentSync/assets/121940469/b3d56a36-f572-4609-bbc7-f4e0fc1dacbd" alt="Stop Image" width="200" height="200" />
+<img src="https://github.com/Khaire7031/SilentSync/assets/121940469/b3d56a36-f572-4609-bbc7-f4e0fc1dacbd" alt="Stop Image" width="500" height="500" />
 
 ### Action 2 :  Live Long
 ![live](https://github.com/Khaire7031/SilentSync/assets/121940469/9b6ef08d-5d9f-4060-a68d-28aecaabbd3b)
